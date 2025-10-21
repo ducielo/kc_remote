@@ -1,0 +1,31 @@
+# ========================
+# 🧱 Node / PNPM
+# ========================
+node_modules/
+.pnpm-store/
+dist/
+build/
+.cache/
+.temp/
+*.log
+
+# ========================
+# ⚙️ Environnements
+# ========================
+.env
+.env.*
+
+# ========================
+# 🧠 IDE / Éditeurs
+# ========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ========================
+# 🐳 Docker
+# ========================
+docker/dev/.env
+docker/prod/.env
+docker/stage_prod/.env
